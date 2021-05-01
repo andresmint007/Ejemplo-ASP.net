@@ -8,6 +8,7 @@ using System.Web.UI.WebControls;
 
 public partial class View_ReporteCarrito : System.Web.UI.Page
 {
+    string funcion;
     protected void Page_Load(object sender, EventArgs e)
     {
         pintarReporte();
@@ -37,6 +38,7 @@ public partial class View_ReporteCarrito : System.Web.UI.Page
             fila["Precio"] = registro.Precio;
             fila["Fecha"] = registro.Fecha;
             datosFinal.Rows.Add(fila);
+
         }
 
         return informe;
