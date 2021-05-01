@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="General" targetNamespace="http://tempuri.org/General.xsd" xmlns:mstns="http://tempuri.org/General.xsd" xmlns="http://tempuri.org/General.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="General" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="General" msprop:Generator_UserDSName="General">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Carrito" msprop:Generator_TableClassName="CarritoDataTable" msprop:Generator_TableVarName="tableCarrito" msprop:Generator_RowChangedName="CarritoRowChanged" msprop:Generator_TablePropName="Carrito" msprop:Generator_RowDeletingName="CarritoRowDeleting" msprop:Generator_RowChangingName="CarritoRowChanging" msprop:Generator_RowEvHandlerName="CarritoRowChangeEventHandler" msprop:Generator_RowDeletedName="CarritoRowDeleted" msprop:Generator_RowClassName="CarritoRow" msprop:Generator_UserTableName="Carrito" msprop:Generator_RowEvArgName="CarritoRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:int" minOccurs="0" />
+              <xs:element name="ProductoNombre" msprop:Generator_ColumnVarNameInTable="columnProductoNombre" msprop:Generator_ColumnPropNameInRow="ProductoNombre" msprop:Generator_ColumnPropNameInTable="ProductoNombreColumn" msprop:Generator_UserColumnName="ProductoNombre" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductoImagen" msprop:Generator_ColumnVarNameInTable="columnProductoImagen" msprop:Generator_ColumnPropNameInRow="ProductoImagen" msprop:Generator_ColumnPropNameInTable="ProductoImagenColumn" msprop:Generator_UserColumnName="ProductoImagen" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="Cantidad" msprop:Generator_ColumnVarNameInTable="columnCantidad" msprop:Generator_ColumnPropNameInRow="Cantidad" msprop:Generator_ColumnPropNameInTable="CantidadColumn" msprop:Generator_UserColumnName="Cantidad" type="xs:int" minOccurs="0" />
+              <xs:element name="Precio" msprop:Generator_ColumnVarNameInTable="columnPrecio" msprop:Generator_ColumnPropNameInRow="Precio" msprop:Generator_ColumnPropNameInTable="PrecioColumn" msprop:Generator_UserColumnName="Precio" type="xs:double" minOccurs="0" />
+              <xs:element name="Fecha" msprop:Generator_ColumnVarNameInTable="columnFecha" msprop:Generator_ColumnPropNameInRow="Fecha" msprop:Generator_ColumnPropNameInTable="FechaColumn" msprop:Generator_UserColumnName="Fecha" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="NombreCliente" msprop:Generator_ColumnVarNameInTable="columnNombreCliente" msprop:Generator_ColumnPropNameInRow="NombreCliente" msprop:Generator_ColumnPropNameInTable="NombreClienteColumn" msprop:Generator_UserColumnName="NombreCliente" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
